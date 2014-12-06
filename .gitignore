@@ -4,10 +4,12 @@
 # Folder view configuration files
 .DS_Store
 Desktop.ini
+node_modules
 
-# Thumbnail cache files
+# cache files
 ._*
 Thumbs.db
+.sass-cache
 
 # Files that might appear on external disks
 .Spotlight-V100
