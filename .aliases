@@ -47,7 +47,7 @@ alias week='date +%V'
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-# alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update'
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -145,7 +145,7 @@ alias reload="exec $SHELL -l"
 # Faster npm for Europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
 
-alias lsn="ls `npm root` | grep -v '^\.' | sed -e 's/\/$//'"
+# alias lsn="ls `npm root` | grep -v '^\.' | sed -e 's/\/$//'"
 alias du-sx="du -sx / &> /dev/null & sleep 25 && kill $!"
 alias nw='/Applications/node-webkit.app/Contents/MacOS/node-webkit'
 alias wpcs="phpcs -p -s -v --standard=WordPress"
@@ -156,3 +156,8 @@ alias jksStop="launchctl stop homebrew.mxcl.jenkins"
 
 alias makepotT="php ~/wp-i18n/makepot.php wp-theme"
 alias makepotP="php ~/wp-i18n/.php wp-plugin"
+
+# alias brew="env PATH=${PATH/${HOME}\/\.phpbrew\/php\/php-5.6.26\/bin:/} brew"
+# alias brew="env PATH=${PATH/${HOME}\/\.phpbrew/} brew"
+
+# /Users/kent6223/.phpbrew/php/php-5.6.26/bin:

@@ -1,0 +1,65 @@
+[
+  // Auto-pair brackets
+  { "keys": ["("], "command": "insert_snippet", "args": {"contents": "( $0 )"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|;|\\}|$)", "match_all": true },
+      { "key": "selector", "operator": "equal", "operand": "source.php" }
+    ]
+  },
+  { "keys": ["("], "command": "insert_snippet", "args": {"contents": "( ${0:$SELECTION} )"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true },
+      { "key": "selector", "operator": "equal", "operand": "source.php" }
+    ]
+  },
+
+  // Markdown Preview
+  { "keys": ["alt+m"], "command": "markdown_preview", "args": {
+    "target": "browser", "parser":"markdown"
+    }
+  },
+
+  // CloseCommentTag
+  {
+    "keys": ["command+shift+,"], "command": "insert_comment_tag"
+  },
+
+  // Indent & Braces
+  {
+    "keys": ["ctrl+i"], "command": "indent_and_braces"
+  },
+
+  // Opening_brace & Closing_braces
+  {
+    "keys": ["ctrl+shift+i"], "command": "indent_and_braces", "args": { "opening_brace": "[", "closing_brace": "]"}
+  },
+
+  // Reindent command
+  {
+    "keys": ["f10"], "command": "reindent", "args": {
+      "single_line": false
+    }
+  },
+
+  {
+    "keys": ["command+shift+r"], "command": "goto_symbol_in_project"
+  },
+  {
+    "keys": ["ctrl+r"], "command": "expand_selection_to_paragraph"
+  },
+
+  // sublime-gulp:
+  {
+    "keys": ["ctrl+shift+e"], "command": "gulp_exit"
+  },
+
+  // Wrap selsction with tag:
+  { "keys": ["ctrl+shift+w"], "command": "insert_snippet", "args": { "name": "Packages/User/long-tag.sublime-snippet" } },
+
+  // AdvancedNewFile
+  { "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
+  { "keys": ["shift+ctrl+alt+n"], "command": "advanced_new_file_new", "args": {"is_python": true}}
+]

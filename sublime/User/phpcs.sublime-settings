@@ -1,0 +1,12 @@
+{
+  "phpcs_additional_args": {
+      "--standard": "WordPress",
+      "-n": ""
+  },
+  "php_cs_fixer_on_save": true,
+  "php_cs_fixer_show_quick_panel": true,
+  "php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
+  "php_cs_fixer_additional_args": {
+    "--level": "wordpress"
+  }
+}

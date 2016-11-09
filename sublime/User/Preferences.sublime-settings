@@ -1,0 +1,83 @@
+{
+	"additional_path_items":
+	[
+		"~/bin",
+		"/Users/kent6223/.nodebrew/current/bin/node",
+		"/usr/local/bin/bash"
+	],
+	"afn_insert_width_first": true,
+	"always_show_minimap_viewport": true,
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": false,
+	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"codeintel_disabled_languages": "['css,less,sass,scss,stylus']",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".sass-cache",
+		".DS_Store",
+		".git",
+		"node_modules",
+		"log",
+		"logs"
+	],
+	"font_face": "Ricty Diminished Discord",
+	"font_options":
+	[
+		"no_round",
+		"glay_antialias"
+	],
+	"font_size": 16.0,
+	"highlight_line": true,
+	"highlight_modified": true,
+	"ignored_packages":
+	[
+		"JavaScript",
+		"Markdown",
+		"PHP",
+		"Stylefmt",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-jshint",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"indent_to_bracket": true,
+	"index_files": true,
+	"index_workers": 2,
+	"itg_sidebar_tree_medium": true,
+	"keymaps":
+	{
+		"show_pretty_keys": true
+	},
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"match_bracket_angle": true,
+	"material_theme_accent_brba": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_disable_tree_indicator": true,
+	"material_theme_panel_separator": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_tabs_separator": true,
+	"material_theme_tree_headings": true,
+	"overlay_scroll_bars": "enabled",
+	"scroll_past_end": true,
+	"show_tab_close_buttons": true,
+	"sidebar_default": true,
+	"tab_size": 2,
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"typescript_auto_format": false,
+	"word_wrap": true
+}

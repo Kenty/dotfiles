@@ -1,0 +1,22 @@
+{
+	"auto_complete_selector": "text.html.markdown",
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/MarkdownEditor-Dark (SL).tmTheme",
+	"extensions":
+	[
+		"markdown"
+	],
+	"extentions":
+	[
+		"md",
+		"mdown",
+		"mdwn",
+		"mmdE",
+		"txt"
+	],
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": "auto",
+	"wrap_width": 0,
+  "tab_size": 2
+}

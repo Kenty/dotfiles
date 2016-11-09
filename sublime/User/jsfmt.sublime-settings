@@ -1,0 +1,15 @@
+{
+  "autoformat": false,
+  "options-JSON":
+  {
+    "plugins":
+    [
+   "esformatter-quotes"
+   ],
+   "quotes":
+   {
+     "type": "double"
+   }
+ },
+ "node-path": "/Users/kent6223/.nodebrew/current/bin/node"
+}

@@ -1,0 +1,11 @@
+{
+	"extensions":
+	[
+		"html",
+		"htm",
+		"html.erb",
+		"html"
+	],
+	"translate_tabs_to_spaces": false,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
+}

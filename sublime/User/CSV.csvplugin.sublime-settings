@@ -1,0 +1,13 @@
+{
+	"csv_per_file_setting":
+	[
+		{
+			"file": "/Users/kent6223/vagrant-wp/www/wordpress/wp-content/themes/habakiri-child/app/json/concept.csv",
+			"use_header": true
+		},
+		{
+			"file": "/Users/kent6223/vagrant-wp/www/wordpress/wp-content/themes/habakiri-child/concept.csv",
+			"use_header": true
+		}
+	]
+}

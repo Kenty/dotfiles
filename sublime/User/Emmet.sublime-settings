@@ -1,0 +1,37 @@
+{
+	"disable_completions": true,
+	"disable_formatted_linebreak": true,
+	"disable_tab_abbreviations": true,
+
+	// Emmetを有効時にHTMLでの『php」の展開の回避
+	"disabled_single_snippet_for_scopes": "",
+
+	// A comma-separated list of scopes where Emmet’s Tab key
+	// abbreviation expander should be disabled
+	"disable_tab_abbreviations_for_scopes": "css,less,sass,scss,stylus",
+	"disabled_keymap_actions": "expand_abbreviation",
+	"enable_emmet_keymap": false,
+
+	// 言語の設定
+	"snippets": {
+		"variables": {
+			"lang": "ja",
+			"locale": "ja-JP"
+		},
+
+		// 変化の調整
+		"html": {
+				"abbreviations": {
+						"img": "<img width=\"\" height=\"\" src=\"\" alt=\"\" />"
+				}
+		}
+	},
+  // "preferences": {
+    "sass.propertyEnd": ";",
+    "css.autoInsertVendorPrefixes": false,
+    "less.autoInsertVendorPrefixes": false,
+    "scss.autoInsertVendorPrefixes": false,
+    "sass.autoInsertVendorPrefixes": false,
+    "caniuse.enabled": false
+  // }
+}

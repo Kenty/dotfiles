@@ -1,0 +1,5 @@
+{
+	"cmd": ["/Users/kent6223/.nodebrew/current/bin/node", "$file"],
+	"selector" : "source.js",
+	"path" : "/Users/kent6223/.nodebrew/current/bin"
+}
