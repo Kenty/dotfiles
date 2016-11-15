@@ -1,10 +1,16 @@
 # ============================================#
+.DS_Store
+
+# SublimeText
 Package Control.last-run
 Package Control.ca-list
 Package Control.ca-bundle
 Package Control.system-ca-bundle
+Package Control.merged-ca-bundle
 Package Control.cache/
 Package Control.ca-certs/
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
 
 Gist.sublime-settings
 
