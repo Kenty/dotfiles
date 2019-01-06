@@ -1,0 +1,52 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+  {
+    "key": "ctrl+cmd+v",
+    "command": "markdown.showPreview",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+v",
+    "command": ""
+  },
+  {
+    "key": "cmd+v",
+    "command": "pasteAndIndent.action",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "!editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "stylefmt.execute"
+  },
+  {
+    "key": "cmd+l",
+    "command": "expandLineSelection",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-expandLineSelection",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "extension.extendedCursorMove.cursorHome",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "-cursorHome",
+    "when": "editorTextFocus"
+  },
+  { "key": "shift+cmd+d","command": "text.duplicateText", "when": "editorTextFocus && editorHasSelection" }
+]
